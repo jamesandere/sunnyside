@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-    height: 70px;
+    height: 50px;
     background-color: #60BFFE;
     display: flex;
     color: white;
@@ -43,7 +43,7 @@ const MenuItem = styled.li`
     margin-left: 30px;
     background-color: ${props => props.name === "contacts" && "white"};
     color: ${props => props.name === "contacts" && "black"};
-    padding: ${props => props.name === "contacts" && "12px"};
+    padding: ${props => props.name === "contacts" && "10px 12px"};
     border-radius: ${props => props.name === "contacts" && "30px"};
 `
 

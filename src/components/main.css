@@ -1,0 +1,98 @@
+.main-container {
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 70vh 70vh;
+    /* grid-gap: 5px 3px; */
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.words {
+    padding-left: 100px;
+}
+
+.wordP {
+    color: gray;
+}
+
+
+.main-cont p {
+    width: 80%;
+    
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.ab p {
+    font-family: 'Barlow', sans-serif;
+}
+
+.imgGrid {
+    width: 100%;
+}
+
+.ab {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+}
+
+.main-cont h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    width: 400px;
+}
+
+.underline {
+    position: relative;
+}
+
+.under {
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 16px;
+    z-index: -1;
+    transform: scaleX(1.1);
+}
+
+.yel {
+    background-color: rgb(255, 232, 130);
+    opacity: 0.7;
+}
+
+.pinky {
+    background-color: pink;
+    opacity: 0.7;
+}
+
+.graph {
+    color: hsl(167, 40%, 24%);
+}
+
+.phot {
+    color: hsl(198, 62%, 26%);
+}
