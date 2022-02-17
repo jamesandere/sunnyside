@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Items from '../components/Items';
 import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Testimonials from '../components/Testimonials';
@@ -11,6 +12,7 @@ const Home = () => {
         <Header />
         <Main />
         <Testimonials />
+        <Items />
     </div>
   )
 }
