@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Items from '../components/Items';
 import Main from '../components/Main';
@@ -13,6 +14,7 @@ const Home = () => {
         <Main />
         <Testimonials />
         <Items />
+        <Footer />
     </div>
   )
 }
